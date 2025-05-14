@@ -1,35 +1,36 @@
-# 📊 Proje: Üretim Makinelerinde Bakım İhtiyacı Tahmini
+# 📊 Project: Predictive Maintenance for Manufacturing Machines
 
-## 👩‍💻 1. Giriş
+## 👩‍💻 1. Introduction
 
-### 🎯 Proje Amacı
+### 🎯 Project Objective
 
-Bu projenin temel amacı, üretim makinelerine ait sensör verilerini analiz ederek,  
-makinelerin bakım gerektirip gerektirmediğini tahmin eden bir **makine öğrenmesi modeli** geliştirmektir.
+The main goal of this project is to develop a **machine learning model** that analyzes sensor data from manufacturing machines  
+and predicts whether the machines require maintenance or not.
 
 ---
 
-## 📁 2. Veri Seti Hakkında
+## 📁 2. About the Dataset
 
-### 📌 Kullanılan Veri Seti
+### 📌 Dataset Used
 
 **Smart Manufacturing IoT-Cloud Monitoring Dataset**
 
-### 📄 Veri Seti İçeriği
+### 📄 Dataset Contents
 
-#### 🔧 Sensör Verileri:
-- 🌡️ **Sıcaklık (Temperature)**
-- 📳 **Titreşim (Vibration)**
-- 💧 **Nem (Humidity)**
-- 🧯 **Basınç (Pressure)**
-- ⚡ **Enerji Tüketimi (Energy Consumption)**
+#### 🔧 Sensor Data:
+- 🌡️ **Temperature**
+- 📳 **Vibration**
+- 💧 **Humidity**
+- 🧯 **Pressure**
+- ⚡ **Energy Consumption**
 
-#### ⚙️ Makine Durumu:
-- 💤 **Idle (Boşta)**
-- 🏃 **Running (Çalışıyor)**
-- ❌ **Failure (Arızalı)**
+#### ⚙️ Machine Status:
+- 💤 **Idle**
+- 🏃 **Running**
+- ❌ **Failure**
 
-#### 🎯 Etiket (Target):
+#### 🎯 Target Label:
 - **Maintenance Required**
-  - `1` : Bakım Gerekli
-  - `0` : Bakım Gerekli Değil
+  - `1` : Maintenance Needed
+  - `0` : No Maintenance Needed
+
